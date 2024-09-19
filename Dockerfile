@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM --platform=linux/amd64 ubuntu:16.04
 
 EXPOSE 9306
 EXPOSE 9312
